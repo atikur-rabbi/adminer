@@ -1,11 +1,11 @@
   
 {
   "functions": {
-    "adminer/index.php": {
+    "api/index.php": {
       "runtime": "vercel-php@0.3.1"
     }
   },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/adminer/index.php" }
+    { "source": "/(.*)", "destination": "/api/index.php" }
   ]
 }
